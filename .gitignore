@@ -14,3 +14,7 @@ __pycache__/
 
 # VS Code
 .vscode/
+
+# Local editor settings
+mLLMCelltype/.claude/
+mLLMCelltype/python/.claude/
