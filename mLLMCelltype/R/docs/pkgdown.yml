@@ -1,0 +1,21 @@
+pandoc: 3.1.7
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles:
+  advanced-features: advanced-features.html
+  consensus-principles: consensus-principles.html
+  contributing-guide: contributing-guide.html
+  faq: faq.html
+  getting-started: getting-started.html
+  installation: installation.html
+  introduction: introduction.html
+  mLLMCelltype: mLLMCelltype.html
+  usage-tutorial: usage-tutorial.html
+  version-history: version-history.html
+  visualization-guide: visualization-guide.html
+  vs-single-agent: vs-single-agent.html
+  why-consensus: why-consensus.html
+last_built: 2025-08-12T02:06Z
+urls:
+  reference: https://cafferyang.com/mLLMCelltype/reference
+  article: https://cafferyang.com/mLLMCelltype/articles

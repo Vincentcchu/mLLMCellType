@@ -1,0 +1,137 @@
+# R related
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rcheck
+*.tar.gz
+.build_files
+logs/
+test_logs/
+.DS_Store
+
+# R package build files
+R/Meta/
+R/doc/
+R/inst/doc/
+R/vignettes/*.html
+R/vignettes/*.pdf
+
+# R cache and temporary files
+R/consensus_cache/
+R/cache/
+R/*_cache/
+R/*.rds
+R/*.pdf
+R/*.png
+R/*.jpg
+R/*.jpeg
+
+# API keys and sensitive files
+R/api_keys.env
+R/examples/
+*.env
+*api_key*
+*secret*
+
+# Python related
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+logs/
+cache/
+
+# 通用
+.DS_Store
+.idea/
+.vscode/
+test_pbmc3k.R
+
+# Large files and visualizations
+mLLMCelltype_visualizations/
+mLLMCelltype-poster/
+
+# Test files and results
+tests/
+R/tests/
+R/.Rcheck-ignore
+test_scripts/
+
+# Web application
+mllmcelltype-web/
+
+# Additional sensitive patterns
+**/api_keys.*
+**/secrets.*
+**/*_key.*
+**/*_secret.*
+**/token.*
+**/*token*
+**/.env.*
+!**/.env.example
+!**/.env.template
+**/config/local.*
+**/credentials.*
+
+# API Key patterns (comprehensive)
+*sk-*
+*sk_*
+*api_key_*
+*apikey*
+*API_KEY*
+*OPENAI_API_KEY*
+*ANTHROPIC_API_KEY*
+*GOOGLE_API_KEY*
+*GEMINI_API_KEY*
+*QWEN_API_KEY*
+*GROK_API_KEY*
+*OPENROUTER_API_KEY*
+*DEEPSEEK_API_KEY*
+*MINIMAX_API_KEY*
+*ZHIPU_API_KEY*
+*STEPFUN_API_KEY*
+
+# Files that might contain API keys
+**/test_report*.md
+**/test_results*.json
+**/langextract_test*.json
+**/*_test_report.md
+**/*_test_results.json
+**/api_test*.py
+**/api_test*.R
+**/test_api*.py
+**/test_api*.R
+
+# Archive and documentation that might contain sensitive info
+archive/
+docs/test_reports/
+docs/api_tests/
+**/LANGEXTRACT_TEST_REPORT.md
+**/API_TEST_*.md
+
+# Demo and development directories
+demos/
+examples/
+test_scripts/
+dev_tools/
+
+# Claude Code
+CLAUDE.md
